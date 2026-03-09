@@ -1,16 +1,24 @@
 ```
-app
- ├ agent
- │   └ summarize_agent.py
- │
- ├ service
- │   ├ youtube_service.py
- │   ├ whisper_service.py
- │   └ summary_service.py
- │
- ├ adapter
- │   └ web
- │        └ summarize_router.py
- │
- └ main.py
+├─adapters
+│  ├─inbound
+│  │  ├─http
+│  │  │  ├─routers
+│  │  │  │  └─__pycache__
+│  │  │  └─__pycache__
+│  │  └─__pycache__
+│  ├─outbound
+│  │  ├─agent
+│  │  ├─db
+│  │  │  └─__pycache__
+│  │  └─__pycache__
+│  └─__pycache__
+├─application
+│  ├─ports
+│  │  └─__pycache__
+│  ├─usecases
+│  │  └─__pycache__
+│  └─__pycache__
+├─domain
+│  └─__pycache__
+└─__pycache__
 ```
